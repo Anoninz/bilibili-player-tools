@@ -1,0 +1,24 @@
+name: 功能建议 / Feature request
+description: 说明使用场景，以及希望增加或改进的功能。
+title: "[建议] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景 / Use case
+      description: "你在什么情况下遇到了不便？"
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 希望怎样改进 / Proposed improvement
+      description: "描述期望的操作或结果。"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充说明 / Additional context
+      description: "可补充截图、示例或其他方案。"

@@ -1,0 +1,54 @@
+name: 问题反馈 / Bug report
+description: 报告功能异常，并提供复现信息。
+title: "[问题] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "反馈会公开显示。不适合公开的信息请发送至 ninzyoung@gmail.com。"
+  - type: input
+    id: extension-version
+    attributes:
+      label: 扩展版本 / Extension version
+      placeholder: "例如 1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器及版本 / Browser and version
+      placeholder: "例如 Google Chrome、Cra 或 ego lite，以及版本号"
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: 操作系统 / Operating system
+      placeholder: "例如 macOS 15.7"
+  - type: input
+    id: page-url
+    attributes:
+      label: 出问题的页面 / Page URL
+      description: "如果与具体视频有关，请提供公开视频链接。"
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 预期和实际表现 / Expected and actual behavior
+      description: "你希望发生什么？实际发生了什么？"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      placeholder: |
+        1. 打开页面
+        2. 执行操作
+        3. 出现问题
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图和补充信息 / Screenshots and additional context
+      description: "可直接拖入截图；请遮住账号等私人信息。"
