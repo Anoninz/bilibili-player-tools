@@ -1,6 +1,10 @@
 # 哔哩哔哩播放快捷键 · 用户反馈
 
-这里接收 Bilibili 播放快捷键扩展的问题反馈和功能建议，由云天维护。
+这里是「哔哩哔哩播放快捷键 B站 bilibili」的产品首页与公开反馈仓库，由云天维护。
+
+[打开产品首页](https://anoninz.github.io/bilibili-player-tools/) · [在 Chrome 网上应用店安装](https://chromewebstore.google.com/detail/nemaphjobhgfnjhfnakfeeccpbmgdieh)
+
+静态首页位于 [docs/](./docs/)，GitHub Pages 的发布源为 `main` 分支的 `/docs`。
 
 ## 提交反馈
 
