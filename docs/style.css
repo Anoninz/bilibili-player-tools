@@ -54,6 +54,11 @@ details { border-bottom: 1px solid #c7d5e9; }
 details:first-of-type { margin-top: .65rem; }
 summary { padding-block: .85rem; font-weight: 650; cursor: pointer; }
 details p { color: var(--muted); margin-bottom: .85rem; }
+.release-notes { padding-block: clamp(2.5rem, 7vw, 5rem); border-bottom: 1px solid var(--line); }
+.release-notes article { margin-top: 1.5rem; max-width: 47rem; }
+.release-notes p { margin-top: .5rem; color: var(--muted); }
+.release-notes ul { margin-block: 1rem 0; padding-inline-start: 1.4em; }
+
 .footer { padding-block: 2.5rem; }
 .footer h2 { font-size: 1.4rem; }
 .footer p { color: var(--muted); margin-top: .6rem; }
