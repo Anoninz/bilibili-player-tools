@@ -8,9 +8,9 @@
 
 ## 提交反馈
 
-- 发现功能异常： [提交问题反馈](https://github.com/Anoninz/bilibili-shortcuts-feedback/issues/new?template=bug_report.yml) 。
-- 希望增加或改进功能： [提交功能建议](https://github.com/Anoninz/bilibili-shortcuts-feedback/issues/new?template=feature_request.yml) 。
-- 提交前可以先 [搜索已有反馈](https://github.com/Anoninz/bilibili-shortcuts-feedback/issues) ，相同问题可在原条目补充。
+- 发现功能异常： [提交问题反馈](https://github.com/Anoninz/bilibili-player-tools/issues/new?template=bug_report.yml) 。
+- 希望增加或改进功能： [提交功能建议](https://github.com/Anoninz/bilibili-player-tools/issues/new?template=feature_request.yml) 。
+- 提交前可以先 [搜索已有反馈](https://github.com/Anoninz/bilibili-player-tools/issues) ，相同问题可在原条目补充。
 
 反馈时请说明扩展版本、浏览器及版本、出问题的页面、复现步骤，以及预期和实际表现。有截图时可以直接拖入反馈框。
 
