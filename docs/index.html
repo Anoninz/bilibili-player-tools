@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="在 B 站全屏选集、整理稍后再看、自定义播放快捷键，并逐帧定位和截图。">
+  <meta name="description" content="筛选 B 站首页推荐，在卡片上预览视频。全屏直接选集，也可以自定义播放快捷键、调速和截图。">
   <meta name="theme-color" content="#f6f8fc">
-  <title>B 站播放器工具 · 哔哩哔哩播放快捷键</title>
+  <title>B 站播放器工具 · 首页推荐与播放快捷键</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -23,13 +23,12 @@
   <main id="main">
     <section class="hero wrap" aria-labelledby="title">
       <div class="hero-copy">
-        <p class="product">哔哩哔哩播放快捷键 B站 bilibili</p>
-        <h1 id="title">看 B 站视频，<br>操作更顺手。</h1>
-        <p class="intro">在全屏里直接选集，把稍后再看一条条看完，用键盘快进、调速，或停在想截的那一帧。</p>
+        <h1 id="title">首页推荐，<br>自己挑。</h1>
+        <p class="intro">隐藏首页的推广和直播卡片，按时长筛选视频，点封面右上角就能预览。看视频时，还能用快捷键调速、截图，在全屏里直接选集。</p>
         <a class="button" href="https://chromewebstore.google.com/detail/nemaphjobhgfnjhfnakfeeccpbmgdieh">在 Chrome 网上应用店安装</a>
       </div>
       <figure class="shot hero-shot">
-        <img src="./assets/playlist-1280x800.png" width="1280" height="800" alt="商店截图，B 站全屏播放器旁展开了浮动播放列表" fetchpriority="high">
+        <img src="./assets/home-recommendations.png" width="840" height="550" alt="B 站首页推荐卡片，封面右上角有预览按钮，底部有「不看此 UP」「不感兴趣」和「稍后再看」" fetchpriority="high">
       </figure>
     </section>
 
@@ -96,6 +95,29 @@
 
     <section id="release-notes" class="release-notes wrap" aria-labelledby="release-notes-title">
       <h2 id="release-notes-title">版本更新</h2>
+      <article aria-labelledby="v1-2-0">
+        <h3 id="v1-2-0">1.2.0</h3>
+        <ul>
+          <li>
+            <strong>按喜好筛选首页推荐。</strong>可分别隐藏外链广告、推广视频和直播卡片，按类别隐藏赛事、番剧等叠层推荐，也可按最短时长筛选视频。隐藏后，后面的推荐会自动补位。
+          </li>
+          <li>
+            <strong>推荐卡片可以点开预览。</strong>点封面右上角开始静音预览，拖动进度条或左右拖动封面可跳到想看的位置。滚动页面或预览另一条视频时，当前预览会停止。
+          </li>
+          <li>
+            <strong>在卡片上直接处理推荐。</strong>卡片底部可选「不看此 UP」「不感兴趣」和「稍后再看」，支持在原卡片上撤销。也可以隐藏点赞数、硬币数和「已关注」标签，或显示视频分区。
+          </li>
+          <li>
+            <strong>在首页查看 UP 主资料。</strong>悬停或用键盘聚焦 UP 主昵称，可查看签名、认证、最近投稿时间和近 30 天公开投稿数。浮卡内可以关注、拉黑，也可以保存只留在当前浏览器的备注。
+          </li>
+          <li>
+            <strong>设置面板更方便操作。</strong>扩展更名为「B 站播放器工具」，设置面板会记住上次打开的标签页，并适配窄窗口。用键盘切换快捷键开关后，焦点会回到原控件。
+          </li>
+          <li>
+            <strong>改进截图提示和浮动列表。</strong>读屏软件可播报截图复制结果。浮动列表的滚动条更容易拖动，开启系统「减少动态效果」时，列表会直接开合。
+          </li>
+        </ul>
+      </article>
       <article aria-labelledby="v1-1-0">
         <h3 id="v1-1-0">1.1.0</h3>
         <p>Chrome 网上应用店更新于 <time datetime="2026-11-19">2026 年 11 月 19 日</time></p>

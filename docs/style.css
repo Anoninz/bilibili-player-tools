@@ -30,7 +30,6 @@ h3 { font-size: clamp(1.4rem, 2.6vw, 2.15rem); letter-spacing: -.035em; }
 .mark { display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: .6rem; background: #dce9ff; color: var(--blue); font-size: .8rem; }
 
 .hero { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 6fr); align-items: center; gap: 2.5rem; padding-block: clamp(3rem, 8vw, 7rem); }
-.product { color: var(--blue); font-weight: 650; font-size: .95rem; margin-bottom: .9rem; }
 h1 { font-size: clamp(2.5rem, 5.8vw, 5rem); letter-spacing: -.07em; }
 .intro { color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.25rem); margin: 1.25rem 0 1.8rem; max-width: 23em; }
 .button { display: inline-block; background: var(--blue); color: white; border-radius: .65rem; padding: .75rem 1.15rem; font-weight: 700; text-decoration: none; }
