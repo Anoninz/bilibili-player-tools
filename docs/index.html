@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="筛选 B 站首页推荐，在卡片上预览视频。全屏直接选集，也可以自定义播放快捷键、调速和截图。">
+  <meta name="description" content="按分区和日期筛选 B 站视频，在搜索卡片上预览或加入稍后再看。观看时可用快捷键调速、截图，在全屏中选集。">
   <meta name="theme-color" content="#f6f8fc">
-  <title>B 站播放器工具 · 首页推荐与播放快捷键</title>
+  <title>B 站播放器工具 · 搜索筛选与播放快捷键</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -23,17 +23,24 @@
   <main id="main">
     <section class="hero wrap" aria-labelledby="title">
       <div class="hero-copy">
-        <h1 id="title">首页推荐，<br>自己挑。</h1>
-        <p class="intro">隐藏首页的推广和直播卡片，按时长筛选视频，点封面右上角就能预览。看视频时，还能用快捷键调速、截图，在全屏里直接选集。</p>
+        <h1 id="title">分区、日期<br>筛选 B 站视频</h1>
+        <p class="intro">在搜索结果里按投稿分区和日期筛选，直接预览视频或加入「稍后再看」。播放时可自定义快捷键，在全屏里直接选集。</p>
         <a class="button" href="https://chromewebstore.google.com/detail/nemaphjobhgfnjhfnakfeeccpbmgdieh">在 Chrome 网上应用店安装</a>
       </div>
       <figure class="shot hero-shot">
-        <img src="./assets/home-recommendations.png" width="840" height="550" alt="B 站首页推荐卡片，封面右上角有预览按钮，底部有「不看此 UP」「不感兴趣」和「稍后再看」" fetchpriority="high">
+        <img src="./assets/search-results-1280x800.png" width="1280" height="800" alt="B 站视频搜索展开了更多筛选，选中喵星人，普通视频卡片有预览和稍后再看按钮" fetchpriority="high">
       </figure>
     </section>
 
     <section id="features" class="features wrap" aria-labelledby="features-title">
-      <h2 id="features-title">在播放器里就能做的事</h2>
+      <h2 id="features-title">搜索和播放功能</h2>
+      <article class="feature">
+        <div>
+          <h3>单独设置搜索页</h3>
+          <p>在扩展设置中可分别开关隐藏广告、分区、发布日期、预览和卡片工具。「综合」里的影视和直播照常显示。首页推荐的设置独立保存。</p>
+        </div>
+        <figure class="shot"><img src="./assets/search-settings-1280x800.png" width="1280" height="800" alt="扩展搜索页设置中的筛选与卡片开关" loading="lazy"></figure>
+      </article>
       <article class="feature">
         <div>
           <h3>全屏里直接选下一集</h3>
@@ -43,24 +50,17 @@
       </article>
       <article class="feature">
         <div>
-          <h3>随手清理稍后再看</h3>
-          <p>从 B 站首页顶栏打开「稍后再看」。在列表播放页按 <kbd>V</kbd> 移除当前视频并播放下一条，按 <kbd>B</kbd> 撤销本页最近一次移除，回到原视频和播放位置。</p>
+          <h3>从顶栏打开稍后再看</h3>
+          <p>首页、普通视频、搜索等常用页面的顶栏都能在新标签页打开列表。在列表播放页按 <kbd>V</kbd> 移除当前视频并播放下一条，按 <kbd>B</kbd> 撤销本页最近一次移除。</p>
         </div>
-        <figure class="shot"><img src="./assets/watchlater-shortcut-1280x800.png" width="1280" height="800" alt="稍后再看的商店截图" loading="lazy"></figure>
+        <figure class="shot"><img src="./assets/v1.3.0-shortcuts-1280x800.png" width="1280" height="800" alt="键位图上的稍后再看移除和撤销快捷键" loading="lazy"></figure>
       </article>
       <article class="feature">
         <div>
-          <h3>把常用操作放在手边</h3>
-          <p>默认用空格播放或暂停，轻按左右方向键前后跳 5 秒，按 <kbd>-</kbd> 和 <kbd>+</kbd> 调整倍速。也可以在设置中按功能或 Mac 键位图重新绑定按键。</p>
+          <h3>按自己的习惯播放</h3>
+          <p>在扩展设置里选择默认显示模式、记住同页切换时的倍速。看视频时可用空格播放或暂停，按 <kbd>-</kbd> 和 <kbd>+</kbd> 调整倍速，也能在设置里重新绑定按键。</p>
         </div>
-        <figure class="shot"><img src="./assets/shortcuts-1280x800.png" width="1280" height="800" alt="扩展设置里用于查看和编辑快捷键的键位图" loading="lazy"></figure>
-      </article>
-      <article class="feature">
-        <div>
-          <h3>逐帧找到想保存的画面</h3>
-          <p>暂停后轻按 <kbd>,</kbd> 或 <kbd>.</kbd> 逐帧定位。选好画面，再按 <kbd>Shift</kbd> + <kbd>S</kbd> 保存为 PNG 或 JPG，默认保存为 PNG。</p>
-        </div>
-        <figure class="shot"><img src="./assets/playback-1280x800.png" width="1280" height="800" alt="扩展的播放控制与截图功能商店截图" loading="lazy"></figure>
+        <figure class="shot"><img src="./assets/v1.3.0-playback-1280x800.png" width="1280" height="800" alt="扩展的默认显示模式、浮动列表和倍速设置" loading="lazy"></figure>
       </article>
     </section>
 
@@ -70,7 +70,7 @@
           <h2 id="start-title">装好就能开始看</h2>
           <ol>
             <li>在电脑的 Chrome 网上应用店安装扩展。</li>
-            <li>打开 B 站视频。已有的视频标签页可以先刷新。</li>
+            <li>打开 B 站搜索或视频。已打开的标签页可以先刷新。</li>
             <li>点击浏览器工具栏里的扩展图标，调整播放设置和快捷键。</li>
           </ol>
           <a class="button" href="https://chromewebstore.google.com/detail/nemaphjobhgfnjhfnakfeeccpbmgdieh">打开 Chrome 网上应用店</a>
@@ -95,6 +95,26 @@
 
     <section id="release-notes" class="release-notes wrap" aria-labelledby="release-notes-title">
       <h2 id="release-notes-title">版本更新</h2>
+      <article aria-labelledby="v1-3-0">
+        <h3 id="v1-3-0">1.3.0</h3>
+        <ul>
+          <li>
+            <strong>搜索可按分区和日期筛选。</strong>「综合」和「视频」共用分区选择，有生效条件时会展开更多筛选。开始和结束日期可单独设置。
+          </li>
+          <li>
+            <strong>在搜索卡片上预览和加入稍后再看。</strong>普通视频卡片显示投稿分区，可点封面按钮预览，也可悬停在 UP 主名字上查看公开资料。
+          </li>
+          <li>
+            <strong>搜索设置单独保存。</strong>在扩展设置的「搜索页」开启隐藏广告，或分别开关分区、日期和卡片功能。综合里的影视和直播照常显示。
+          </li>
+          <li>
+            <strong>更多顶栏可打开稍后再看。</strong>搜索、普通视频、动态、空间、直播和稍后再看列表等页面可在新标签页打开列表。
+          </li>
+          <li>
+            <strong>搜索链接自动清理来源参数。</strong>保留关键词、排序、筛选和页码。
+          </li>
+        </ul>
+      </article>
       <article aria-labelledby="v1-2-0">
         <h3 id="v1-2-0">1.2.0</h3>
         <ul>
